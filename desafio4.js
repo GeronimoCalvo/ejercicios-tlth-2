@@ -1,5 +1,5 @@
-const sumarProductos = (precioUnitario , cantidadDeseada) => `precio final : $${precioUnitario * cantidadDeseada}`
-console.log(sumarProductos (23000, 5))
+const sumarProductos = (precioUnitario , cantidadDeseada) => precioUnitario * cantidadDeseada
+
 
 let inputPrecio = prompt ("ingrese precio")
 let inputCantidad = prompt ("ingrese cantidad")
