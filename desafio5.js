@@ -5,5 +5,5 @@ for (let producto in productos)
 productos.push("celulares")
 console.log(productos) 
 
-productos.pop()
+productos.shift()
 console.log(productos)
